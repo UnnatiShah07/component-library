@@ -1,0 +1,41 @@
+.alert-box {
+  width: fit-content;
+  min-width: 20em;
+  height: 3.3em;
+  border-radius: 0.3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  font-size: 0.9em;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.action {
+  cursor: pointer;
+}
+
+.alert-success {
+  background-color: var(--success-bg);
+  color: var(--success);
+}
+
+.alert-info {
+  background-color: var(--info-bg);
+  color: var(--info);
+}
+
+.alert-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning);
+}
+
+.alert-error {
+  background-color: var(--error-bg);
+  color: var(--error);
+}

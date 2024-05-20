@@ -1,0 +1,13 @@
+.landing-page {
+  height: calc(100vh - 5em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page button {
+  margin: 2em 0;
+  padding: 1em 1.5em;
+  font-size: 16px;
+}

@@ -1,0 +1,35 @@
+.header {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.link-container {
+  display: flex;
+  gap: 1em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.header input {
+  padding: 0.4em;
+  outline: none;
+  width: 18em;
+}
+
+.header button {
+  padding: 0.6em;
+  background-color: var(--primary);
+  border: 0;
+  border-radius: 0.2em;
+  color: white;
+  font-weight: 600;
+}

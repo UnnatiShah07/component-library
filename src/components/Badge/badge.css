@@ -1,0 +1,25 @@
+.badge-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.badge {
+  width: fit-content;
+  height: fit-content;
+  min-width: 0.7em;
+  min-height: 0.7em;
+  border-radius: 1em;
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.p-2 {
+  padding: 0.3em;
+}

@@ -1,0 +1,33 @@
+.card {
+  width: fit-content;
+  height: auto;
+  min-width: 15em;
+  background-color: #f8f8f8;
+  border-radius: 0.5em;
+  margin: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card .title {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.shadow-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card main {
+}
+
+.card .dismiss {
+  cursor: pointer;
+}

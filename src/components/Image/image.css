@@ -1,0 +1,16 @@
+.image-square {
+  width: 10em;
+  height: 10em;
+  border-radius: 0.7em;
+}
+
+.image-rectangle {
+  width: 15em;
+  height: 10em;
+  border-radius: 0.7em;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,43 @@
+.button {
+  border: none;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.text {
+  background-color: transparent;
+  color: var(--info-icon);
+}
+
+.contained {
+  background-color: var(--info-icon);
+  color: white;
+}
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid var(--info-icon);
+  color: var(--info-icon);
+}
+
+.disabled-text {
+  color: var(--disabled-text);
+}
+
+.disabled-contained {
+  background-color: var(--disabled-bg);
+  color: var(--disabled-text);
+}
+
+.disabled-outlined {
+  color: var(--disabled-text);
+  border: 1px solid var(--disabled-text);
+}

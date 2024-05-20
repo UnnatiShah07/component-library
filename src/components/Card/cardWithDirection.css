@@ -1,0 +1,41 @@
+.horizontal-card {
+  width: fit-content;
+  max-width: 18em;
+  min-width: 15em;
+  height: auto;
+  background-color: #f8f8f8;
+  border-radius: 0.5em;
+  margin: 10px;
+  display: flex;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card-vertical {
+  flex-direction: column;
+}
+
+img {
+  width: 10em;
+  max-width: 20em;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.img-vertical {
+  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0em;
+  border-top-right-radius: 0.5em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5em;
+  padding: 1em;
+}
