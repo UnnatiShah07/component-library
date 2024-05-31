@@ -5,14 +5,7 @@ import { MdErrorOutline } from "react-icons/md";
 import { colors } from "../../styles/colors";
 
 export const Alert = ({ severity, children, action }) => {
-  const severityStyle =
-    severity === "info"
-      ? "alert-info"
-      : severity === "warning"
-      ? "alert-warning"
-      : severity === "error"
-      ? "alert-error"
-      : "alert-success";
+  const severityStyle = severity === "info" ? "alert-info" : severity === "warning" ? "alert-warning" : severity === "error" ? "alert-error" : "alert-success";
   const getAlertIcon = () =>
     severity === "info" ? (
       <AiOutlineInfoCircle size={"1.3em"} color={colors.infoIcon} />
